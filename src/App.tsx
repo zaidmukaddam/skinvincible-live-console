@@ -39,6 +39,7 @@ function App() {
 
               {/* APP goes here */}
               <Altair />
+              
               <video
                 className={cn("stream", {
                   hidden: !videoRef.current || !videoStream,
